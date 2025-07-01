@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #f6f6ff;
+  --background: #eeb7fd;
   --main-color: #ffffff;
   --secondary-color: purple;
   --warn-color: #ff0000;
@@ -13,7 +13,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #f6f6ff;
+    --background: #eeb7fd;
     --main-color: white;
     --secondary-color: purple;
     --warn-color: red;
