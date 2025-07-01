@@ -28,7 +28,7 @@ export const TextBox = () => {
     const onSubmit = (data : SendMessage) => {
         const message : MessageItem = {
             id : UniqueId.getUniqueId(),
-            user : currentUser,
+            user : currentUser
             message : data.message,
             updatedAt : new Date().toISOString(),
             priorityValue : 0
